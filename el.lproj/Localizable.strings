@@ -1,0 +1,62 @@
+"__ALL_PACKAGES__" = "Όλα τα πακέτα";
+"__INSTALLED_PACKAGES__" = "Εγκατεστημένα πακέτα";
+"__RECENT_PACKAGES__" = "Πρόσφατα πακέτα";
+"__UPDATED_PACKAGES__" = "Αναβαθμισμένα πακέτα";
+
+"%u package" = "%u πακέτα";
+"%u total packages" = "%u συν. πακέτα";
+"An Installer update is available. Would you like to update it now? It is strongly recommended you stay up-to-date with the latest version." = "Μια αναβάθμιση του Installer είναι διαθέσιμη. Θέλετε να το αναβαθμίσετε τώρα; Σας συνιστούμε να είναι αναβαθμισμένος στην τελευταία έκδοση.";
+"Cancel" = "Άκυρο";
+"Cannot install package \"%@\" as it was not found. Sorry!" = "Αδυναμία εγκατάστασης πακέτου \"%@\" καθώς δεν βρέθηκε. Συγνώμη!";
+"Checking %@" = "Έλεγχος %@";
+"Contact" = "Επαφή";
+"Downloading %@" = "Λήψη %@";
+"Error" = "Σφάλμα";
+"Featured" = "Περιεχόμενα";
+"Fetching icon for %@..." = "Λήψη εικονιδίου για %@…";
+"Fetching info for %@..." = "Λήψη πληροφοριών για %@…";
+"Getting rating for \"%@\"..." = "Λήψη αξιολόγησης για \"%@\"…";
+"Install" = "Εγκατάσταση";
+"Installer Update Available" = "Αναβάθμιση Installer διαθέσιμη";
+"Installer was not installed correctly. It should be run as root:wheel. We will continue but please remember that it may not function correctly." = "Ο Installer δεν εγκαταστάθηκε σωστά. Πρέπει να το τρέξετε σαν root:wheel. Θα συνεχίσουμε αλλά παρακαλώ θυμηθείτε ότι δεν θα λειτουργεί σωστά.";
+"Installing %@" = "Εγκατάσταση %@";
+"Insufficient Permissions" = "Ανεπαρκής δικαιώματα";
+"Invalid Source" = "Μη έγκυρη πηγή";
+"New Source" = "Νέα πηγή";
+"Notice" = "Σημείωση";
+"OK" = "OK";
+"Please input the valid source URL above to add the source." = "Παρακαλώ εισάγετε το URL της έγκυρης πηγής για να προσθέσετε μια πηγή.";
+"Post-flight for %@" = "Post-flight για %@";
+"Pre-flight for %@" = "Pre-flight για %@";
+"Preparing %@" = "Προετοιμασία %@";
+"Proceed" = "Συνέχεια";
+"Processing" = "Επεξεργασία";
+"Processing index..." = "Επεξεργασία ευρετηρίασης…";
+"Processing packages..." = "Επεξεργασία πακέτων…";
+"Queueing package install..." = "Δρομολόγηση πακέτου εγκατάστασης σε σειρά…";
+"Refreshing" = "Ανανέωση";
+"Refreshing %@..." = "Ανανέωση %@…";
+"Refreshing trusted sources" = "Ανανέωση έμπιστων πηγών";
+"Searching" = "Αναζήτηση";
+"Searching for \"%@\"..." = "Αναζήτηση για \"%@\"…";
+"Source" = "Πηγή";
+"The package \"%@\" comes from a source that is not yet added to Installer. If you Proceed, the source \"%@\" will be first added to your sources list, and then the package will be installed as normal." = "Το πακέτο \"%@\" προέρχεται από πηγή που δεν έχει προστεθεί στον Installer. Αν συνεχίσετε, η πηγή \"%@\" θα εγκατασταθεί στην λίστα σας και το πακέτο θα εγκατασταθεί κανονικά.";
+"There were errors while trying to refresh this source. Please double-check the URL and try refreshing again." = "Εμφανίστηκαν σφάλματα κατά την ανανέωση της πηγής. Παρακαλώ ελέγξτε το URL και ανανεώστε ξανά.";
+"Uninstall" = "Απεγκατάσταση";
+"Update" = "Ανανέωση";
+"Update All" = "Ανανέωση όλων";
+"Updated" = "Ανανεώθηκε";
+"Waiting on %@..." = "Αναμονή σε %@…";
+
+/* Task statuses */
+"Idle" = "Αδράνης";
+"Active" = "Ενεργή";
+"Done" = "Επιτυχής";
+"Failed" = "Αποτυχής";
+"Status:" = "Κατάσταση:";
+
+/* Recent Packages */
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"Older" = "Older";
+

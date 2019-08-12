@@ -1,0 +1,23 @@
+
+/*1 = "Required dependency (%@) was not found.";*/
+1 = "Απαιτείται εξάρτηση του πακέτου (%@) το οποίο δεν βρέθηκε.";
+
+/*2 = "Decoding of the information for the package %@ failed.";*/
+2 = "Η αποκρυπτογράφηση των πληροφοριών του πακέτου %@ απέτυχε.";
+
+/*3 = "File hash does not match the downloaded file for package %@. Try again, or refresh the source - the file may have changed.";*/
+3 = "Το hash του αρχείου δεν είναι ίδιο με το φορτωμένο πακέτο %@. Δοκιμάστε ξανά, ή ανανεώστε την πηγή - το αρχείο μπορεί να έχει αλλάξει.";
+
+/*4 = "File size does not match the downloaded file for package %@. Try again, or refresh the source - the file may have changed.";*/
+4 = "Το μέγεθος του αρχείου δεν είναι ίδιο με το κατεβασμένο πακέτο %@. Δοκιμάστε ξανά, ή ανανεώστε την πηγή - το αρχείο μπορεί να έχει αλλάξει.";
+
+/*5 = "Script Error";*/
+5 = "Σφάλμα Script";
+
+/*6 = "Package is not installed.";*/
+6 = "Το πακέτο δεν είναι εγκατεστημένο.";
+
+/*7 = "Cannot receive information about trusted sources from RiP Dev. Please try again later.";*/
+7 = "Δεν γίνετε να ληφθούν πληροφορίες απο την έμπιστη πηγή Ripdev. Παρακαλώ δοκιμάστε αργότερα.";
+
+9 = "This package requires a device with an unlocked system disk, also known as \"jailbroken\". Since your system partition is secure, it cannot be installed. Sorry.";

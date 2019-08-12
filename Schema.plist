@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<string>CREATE TABLE sources (
+    location        TEXT,
+    name            TEXT,
+    maintainer      TEXT,
+    contact         TEXT,
+    url             TEXT,
+    category        TEXT,
+    description     TEXT,
+    isTrusted       INTEGER DEFAULT 0,
+    isUnsafe        INTEGER DEFAULT 0,
+    hasErrors       INTEGER DEFAULT 0,
+    
+    lastrefresh     REAL
+);
+</string>
+<string>CREATE INDEX lastrefresh_idx ON sources ( lastrefresh );</string>
+<string>CREATE TABLE packages (
+    source          INTEGER,
+    
+    identifier      TEXT,
+    name            TEXT,
+    
+    moreURL         TEXT,
+    customInfo      TEXT,
+    
+    version         TEXT,
+    location        TEXT,
+    size            INTEGER,
+    hash            TEXT,
+    maintainer      TEXT,
+    contact         TEXT,
+    description     TEXT,
+    url             TEXT,
+    category        TEXT,
+    date            REAL,
+    dependencies    BLOB,
+    icon            TEXT,
+    sponsor         TEXT,
+    sponsorURL      TEXT,
+    uninstallScript BLOB,
+    isInstalled     INTEGER DEFAULT 0
+);
+</string>
+<string>CREATE INDEX source_idx ON packages ( source );</string>
+<string>CREATE INDEX date_idx ON packages ( date );</string>
+<string>CREATE INDEX identifier_idx ON packages ( identifier );</string>
+<string>CREATE INDEX installed_idx ON packages ( isInstalled );</string>
+<string>ALTER TABLE sources ADD COLUMN icon TEXT;</string>
+<string>DELETE FROM packages WHERE isInstalled &lt;&gt; 1;</string>
+<string>CREATE TABLE search (
+    packageID       INTEGER DEFAULT NULL,
+    
+	sourceName		TEXT,
+	sourceURL		TEXT,
+    identifier      TEXT,
+    name            TEXT,
+    customInfo      TEXT,
+    
+    description     TEXT,
+    version         TEXT,
+    icon            TEXT,
+    date            REAL
+);
+</string>
+<string>CREATE TABLE incomplete_downloads (
+    url             TEXT,
+    path            TEXT,
+    date            REAL,
+    size            INTEGER,
+    mod_date        REAL
+);
+</string>
+<string>ALTER TABLE packages ADD COLUMN rating REAL;</string>
+<string>ALTER TABLE packages ADD COLUMN myRating REAL;</string>
+<string>ALTER TABLE packages ADD COLUMN ratingRefresh REAL;</string>
+<string>ALTER TABLE packages ADD COLUMN preflightScript BLOB;</string>
+<string>ALTER TABLE packages ADD COLUMN postflightScript BLOB;</string>
+</array>
+</plist>

@@ -1,0 +1,9 @@
+1 = "Required dependency (%@) was not found.";
+2 = "Decoding of the information for the package %@ failed.";
+3 = "File hash does not match the downloaded file for package %@. Try again, or refresh the source - the file may have changed.";
+4 = "File size does not match the downloaded file for package %@. Try again, or refresh the source - the file may have changed.";
+5 = "Script Error";
+6 = "Package is not installed.";
+7 = "Cannot receive information about trusted sources from Ripdev. Please try again later.";
+8 = "Package not found.";
+9 = "This package requires a device with an unlocked system disk, also known as \"jailbroken\". Since your system partition is secure, it cannot be installed. Sorry.";

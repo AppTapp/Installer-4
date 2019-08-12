@@ -1,0 +1,61 @@
+"__ALL_PACKAGES__" = "Alle Pakete";
+"__INSTALLED_PACKAGES__" = "Installierte Pakete";
+"__RECENT_PACKAGES__" = "Aktuelle Pakete";
+"__UPDATED_PACKAGES__" = "Paketupdates";
+
+"%u package" = "%u Pakete";
+"%u total packages" = "%u Pakete";
+"An Installer update is available. Would you like to update it now? It is strongly recommended you stay up-to-date with the latest version." = "Ein Installer Update ist Verfügbar. Soll es jetzt installiert werden? Es wird dringend empfohlen, bleiben Sie immer auf der aktuellsten Version.";
+"Cancel" = "Abbrechen";
+"Cannot install package \"%@\" as it was not found. Sorry!" = "Das Paket \"%@\" konnte nicht installiert werden, da es nicht gefunden wurde! Sorry!";
+"Checking %@" = "Prüfe %@";
+"Contact" = "Kontakt";
+"Downloading %@" = "Lade %@";
+"Error" = "Fehler";
+"Featured" = "Empfohlen";
+"Fetching icon for %@..." = "Lade Icon für %@…";
+"Fetching info for %@..." = "Lade Info für %@…";
+"Getting rating for \"%@\"..." = "Lade Bewertung für \"%@\"…";
+"Install" = "Installieren";
+"Installer Update Available" = "Installer Update verfügbar";
+"Installer was not installed correctly. It should be run as root:wheel. We will continue but please remember that it may not function correctly." = "Der Installer ist nicht korrekt installiert! Er sollte unter root:wheel ausgeführt werden. Er wird weiterhin ausgeführt, könnte aber möglichweise nicht korrekt funktionieren.";
+"Installing %@" = "Installiere %@";
+"Insufficient Permissions" = "Unzureichende Berechtigungen";
+"Invalid Source" = "Ungültige Quelle";
+"New Source" = "Neue Quelle";
+"Notice" = "Hinweis";
+"OK" = "OK";
+"Please input the valid source URL above to add the source." = "Bitte geben Sie oben eine gültige URL ein, um eine Quelle hinzuzufügen.";
+"Post-flight for %@" = "Post-Installation für %@";
+"Pre-flight for %@" = "Pre-Installation für %@";
+"Preparing %@" = "Vorbereite %@";
+"Proceed" = "Bearbeite";
+"Processing" = "Bearbeite";
+"Processing index..." = "Bearbeite Index…";
+"Processing packages..." = "Bearbeite Paket…";
+"Queueing package install..." = "Paketinstallation wartend…";
+"Refreshing" = "Aktualisieren";
+"Refreshing %@..." = "Aktualisiere %@…";
+"Refreshing trusted sources" = "Aktualisiere vertrauenswürdige Quellen";
+"Searching" = "Suche";
+"Searching for \"%@\"..." = "Suche nach \"%@\"…";
+"Status:" = "Status:";
+"Source" = "Quelle";
+"The package \"%@\" comes from a source that is not yet added to Installer. If you Proceed, the source \"%@\" will be first added to your sources list, and then the package will be installed as normal." = "Das Paket \"%1$@\" kommt aus einer noch nicht eingebundenen Quelle (%2$@). Wenn Sie das Paket installieren möchten, wird erst die Quelle eingebunden und erst dann wird das Paket installiert.";
+"There were errors while trying to refresh this source. Please double-check the URL and try refreshing again." = "Beim aktualisieren der Quellen sind Fehler aufgetreten. Bitte überprüfen Sie die URL und versuchen Sie es erneut.";
+"Uninstall" = "Deinstallieren";
+"Update" = "Updaten";
+"Update All" = "Alle Updaten";
+"Updated" = "Aktualisiert";
+"Waiting on %@..." = "Warte auf %@…";
+
+/* Task statuses */
+"Idle" = "Wartend";
+"Active" = "Aktiv";
+"Done" = "Fertig";
+"Failed" = "Fehlgeschlagen";
+
+/* Recent Packages */
+"Today" = "Heute";
+"Yesterday" = "Gestern";
+"Older" = "Älter";

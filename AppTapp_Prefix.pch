@@ -1,0 +1,51 @@
+//
+// Prefix header for all source files of the 'Installer' target in the 'Installer' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#if !defined(__i386__)
+	#import <UIKit/UIKit.h>
+	#import <QuartzCore/QuartzCore.h>
+#endif
+	#import "ATError.h"
+#endif
+
+#define InstallerPreferences				[NSUserDefaults standardUserDefaults]
+#define __REFRESH_INTERVAL__				60 * 60
+
+#if !defined(INSTALLER_APP) && !defined(__i386__)
+	#define __PRIVATE_PATH__					[@"/var/mobile/Library/Application Support/Installer" stringByExpandingTildeInPath]
+#else
+	#define __PRIVATE_PATH__					[@"~/Library/Application Support/Installer" stringByExpandingTildeInPath]
+#endif
+
+#define __DB_PATH__						[__PRIVATE_PATH__ stringByAppendingPathComponent:@"Installer.db"]
+#define	__ICON_CACHE_PATH__				[__PRIVATE_PATH__ stringByAppendingPathComponent:@"IconCache"]
+#define	__DOWNLOADS_PATH__				[__PRIVATE_PATH__ stringByAppendingPathComponent:@"Downloads"]
+
+#define __FEATURED_LOCATION__				@"http://featured.i.ripdev.com/"
+#define __TRUSTED_SOURCES_LOCATION__		@"http://featured.i.ripdev.com/assets/"
+
+#define __DEFAULT_SOURCE_NAME__				@"Ripdev"
+#define __DEFAULT_SOURCE_CATEGORY__			@"Community Sources"
+#define __DEFAULT_SOURCE_LOCATION__			@"http://i.ripdev.com/"
+#define __DEFAULT_SOURCE_MAINTAINER__		@"Ripdev"
+#define __DEFAULT_SOURCE_CONTACT__			@"support@ripdev.com"
+
+#define __INSTALLER_NAME__					@"Installer"
+#define __INSTALLER_VERSION__				[[NSBundle bundleForClass:[NSClassFromString(@"ATDatabase") class]] objectForInfoDictionaryKey:@"CFBundleVersion"]
+#define __USER_AGENT__						[NSString stringWithFormat:@"Install/%@ (%@/%@, like CFNetwork/220.0)", __INSTALLER_VERSION__, [ATPlatform platformName], [ATPlatform firmwareVersion]]
+#define __INSTALLER_BUNDLE_IDENTIFIER__		@"com.ripdev.install"
+#define __INSTALLER_CONTACT__				@"support@ripdev.com"
+#define __INSTALLER_CATEGORY__				@"System"
+#define __INSTALLER_DESCRIPTION__			@"THE Installer."
+
+#define __COMMUNITY_SOURCES_CATEGORY__		@"Community Sources"
+#define __UNCATEGORIZED__					@"Uncategorized"
+
+#ifdef DEBUG
+	#define Log(...) NSLog(__VA_ARGS__)
+#else
+	#define Log(...) {}
+#endif

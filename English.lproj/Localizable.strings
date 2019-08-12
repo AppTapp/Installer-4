@@ -1,0 +1,61 @@
+"__ALL_PACKAGES__" = "All Packages";
+"__INSTALLED_PACKAGES__" = "Installed Packages";
+"__RECENT_PACKAGES__" = "Recent Packages";
+"__UPDATED_PACKAGES__" = "Updated Packages";
+
+"%u package" = "%u package";
+"%u total packages" = "%u total packages";
+"An Installer update is available. Would you like to update it now? It is strongly recommended you stay up-to-date with the latest version." = "An Installer update is available. Would you like to update it now? It is strongly recommended you stay up-to-date with the latest version.";
+"Cancel" = "Cancel";
+"Cannot install package \"%@\" as it was not found. Sorry!" = "Cannot install package \"%@\" as it was not found. Sorry!";
+"Checking %@" = "Checking %@";
+"Contact" = "Contact";
+"Downloading %@" = "Downloading %@";
+"Error" = "Error";
+"Featured" = "Featured";
+"Fetching icon for %@..." = "Fetching icon for %@…";
+"Fetching info for %@..." = "Fetching info for %@…";
+"Getting rating for \"%@\"..." = "Getting rating for \"%@\"…";
+"Install" = "Install";
+"Installer Update Available" = "Installer Update Available";
+"Installer was not installed correctly. It should be run as root:wheel. We will continue but please remember that it may not function correctly." = "Installer was not installed correctly. It should be run as root:wheel. We will continue but please remember that it may not function correctly.";
+"Installing %@" = "Installing %@";
+"Insufficient Permissions" = "Insufficient Permissions";
+"Invalid Source" = "Invalid Source";
+"New Source" = "New Source";
+"Notice" = "Notice";
+"OK" = "OK";
+"Please input the valid source URL above to add the source." = "Please input the valid source URL above to add the source.";
+"Post-flight for %@" = "Post-flight for %@";
+"Pre-flight for %@" = "Pre-flight for %@";
+"Preparing %@" = "Preparing %@";
+"Proceed" = "Proceed";
+"Processing" = "Processing";
+"Processing index..." = "Processing index…";
+"Processing packages..." = "Processing packages…";
+"Queueing package install..." = "Queueing package install…";
+"Refreshing" = "Refreshing";
+"Refreshing %@..." = "Refreshing %@…";
+"Refreshing trusted sources" = "Refreshing trusted sources";
+"Searching" = "Searching";
+"Searching for \"%@\"..." = "Searching for \"%@\"…";
+"Status:" = "Status:";
+"Source" = "Source";
+"The package \"%@\" comes from a source that is not yet added to Installer. If you Proceed, the source \"%@\" will be first added to your sources list, and then the package will be installed as normal." = "The package \"%1$@\" comes from a source that is not yet added to Installer. If you Proceed, the source \"%2$@\" will be first added to your sources list, and then the package will be installed as normal.";
+"There were errors while trying to refresh this source. Please double-check the URL and try refreshing again." = "There were errors while trying to refresh this source. Please double-check the URL and try refreshing again.";
+"Uninstall" = "Uninstall";
+"Update" = "Update";
+"Update All" = "Update All";
+"Updated" = "Updated";
+"Waiting on %@..." = "Waiting on %@…";
+
+/* Task statuses */
+"Idle" = "Idle";
+"Active" = "Active";
+"Done" = "Done";
+"Failed" = "Failed";
+
+/* Recent Packages */
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"Older" = "Older";
